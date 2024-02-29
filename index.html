@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me - Spider-Man</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <style>
+      body {
+        background-color: #000;
+      }
+
+      .logo {
+        height: auto;
+        width: 80px;
+        padding-left: 20px;
+      }
+
+      .jumbotron {
+        background-image: url("./images/bg_image.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        color: white;
+        text-align: center;
+        padding: 100px;
+        margin-bottom: 0;
+      }
+
+      .main-heading {
+        text-transform: uppercase;
+        font-weight: bold;
+        opacity: 0.7;
+        padding-top: 160px;
+      }
+
+      .sub-heading {
+        text-transform: uppercase;
+        opacity: 0.5;
+      }
+
+      .about-section {
+        background-color: black;
+        color: white;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .contact-section {
+        background-image: url("./images/contact.jpeg"); /* Replace with your image URL */
+        background-size: cover;
+        padding: 60px 0;
+      }
+
+      .related-movies-section {
+        background-color: black;
+        color: #000;
+        padding: 60px 0;
+      }
+
+      /* Updated Navbar Background */
+      .navbar {
+        background-color: black !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="./images/logo2.webp" alt="spidey_image" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">about</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#related-movies">Related Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Jumbotron  conatiner-->
+    <div class="jumbotron">
+      <h1 class="display-4 main-heading">Spider-Man</h1>
+      <p class="lead sub-heading">
+        "With great power comes great responsibility"
+      </p>
+    </div>
+
+    <!-- About Me Section -->
+    <div id="about" class="container-fluid about-section">
+      <div class="container">
+        <div class="row">
+          <!-- Text Column -->
+          <div class="col-md-6">
+            <h2 class="text-center mb-4">About Spidey</h2>
+            <p>
+              A bite from a spider somehow granted teenager Peter Parker its
+              arachnid abilities and instead of using them for personal gain, he
+              decided to help others with them. An orphan living with his aunt,
+              May Parker, the boy chose to wear a mask while fighting crime so
+              as not to burden her with his actions. Calling himself Spider-Man
+              and sporting a pair of web-shooting devices he’d constructed,
+              Parker wound up in internet videos which attracted the attention
+              of Tony Stark. The billionaire industrialist deduced Spider-Man’s
+              secret identity and approached Parker at his and May’s home in
+              Queens, New York
+            </p>
+          </div>
+          <!-- Image Column -->
+          <div
+            class="col-md-6 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="./images/second_img.jpg"
+              alt="Spider-Man"
+              class="img-fluid"
+              style="max-height: 300px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Related Movies Section -->
+    <div id="related-movies" class="container-fluid related-movies-section">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white mb-4">
+          Related Movies
+        </h2>
+        <div class="row">
+          <!-- Movie Card 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="./images/movie_one.png"
+                class="card-img-top"
+                alt="Movie 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">SpiderMan- HomeComing</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                  quasi nesciunt
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Movie Card 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="./images/movie_two.webp"
+                class="card-img-top"
+                alt="Movie 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">SpiderMan - Far From Home</h5>
+                <p class="card-text">
+                  debitis, id aliquam incidunt voluptatibus, repudiandae eaque
+                  sunt ducimus
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Movie Card 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="./images/movie_3.jpeg"
+                class="card-img-top"
+                alt="Movie 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">SpiderMan - No Way Home</h5>
+                <p class="card-text">
+                  aliquid perspiciatis architecto esse iste vel temporibus fugit
+                  pariatur sapiente.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+
+    <div
+      id="contact"
+      class="container-fluid contact-section text-white py-5"
+      style="
+        background-image: url('contact-background.jpg');
+        background-size: 100% 100%;
+      "
+    >
+      <div class="container">
+        <h2 class="text-center text-uppercase mb-4">Contact Me</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="5"
+                  placeholder="Type your message here"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-black text-white text-center py-3">
+      <p>
+        &copy; 2023 Marvel. ALL RIGHTS RESERVED. Designed by JK NITHIN KUMAR
+      </p>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
